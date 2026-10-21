@@ -1,0 +1,21 @@
+{
+  "name": "zerotrustx-mern",
+  "version": "1.0.0",
+  "description": "ZeroTrustX – Zero Trust Enterprise Access Management System (MERN Stack)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --names \"API,UI\" --prefix-colors \"cyan,magenta\" \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "start": "concurrently --names \"API,UI\" --prefix-colors \"cyan,magenta\" \"npm start --prefix server\" \"npm run dev --prefix client\"",
+    "seed": "npm run seed --prefix server",
+    "e2e": "npm run e2e --prefix server",
+    "test:e2e": "playwright test",
+    "test": "npm run e2e",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "concurrently": "^10.0.5",
+    "otplib": "^13.5.0"
+  }
+}
