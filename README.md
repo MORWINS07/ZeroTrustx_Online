@@ -3,6 +3,13 @@
 **Zero Trust Enterprise Access Management System**
 A full-stack MERN cybersecurity platform implementing Google's BeyondCorp-inspired Zero Trust model.
 
+## 🌐 Live Deployments
+
+- **Live Application (Frontend):** [https://zero-trustx-online.vercel.app](https://zero-trustx-online.vercel.app/)
+- **Live API (Backend):** [https://zerotrustx-api.onrender.com](https://zerotrustx-api.onrender.com/)
+- **GitHub Repository:** [https://github.com/MORWINS07/ZeroTrustx_Online](https://github.com/MORWINS07/ZeroTrustx_Online)
+- **Database:** MongoDB Atlas (Cloud)
+
 ---
 
 ## Table of Contents
